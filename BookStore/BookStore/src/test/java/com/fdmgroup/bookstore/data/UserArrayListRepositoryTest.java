@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class UserArrayListRepositoryTest extends UserArrayListRepository {
 	
-	UserArrayListRepository userArrayListRepository;
+UserArrayListRepository userArrayListRepository;
     User user1;
     User user2;
     User user3;
@@ -35,7 +35,7 @@ public class UserArrayListRepositoryTest extends UserArrayListRepository {
         user3.setUsername("Davis");
         user3.setPassword("nsr");
         user3.setUserId(UserArrayListRepository.generateId());
-}
+	}
     
     @Test
     public void validateTest() {
@@ -105,4 +105,4 @@ public class UserArrayListRepositoryTest extends UserArrayListRepository {
         userArrayListRepository = new UserArrayListRepository(users);
         assertEquals(users, userArrayListRepository.findAll());
     } 
-}
+};
