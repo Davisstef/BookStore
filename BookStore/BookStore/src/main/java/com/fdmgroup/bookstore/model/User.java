@@ -80,4 +80,4 @@ public class User {
 	public void setOrders(ArrayList<Order> orders) {
 		this.orders = orders;
 	}
-}
+};
