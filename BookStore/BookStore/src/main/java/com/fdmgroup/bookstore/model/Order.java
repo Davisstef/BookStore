@@ -2,8 +2,7 @@ package com.fdmgroup.bookstore.model;
 
 import java.util.Date;
 
-public class Order
-{
+public class Order {
 	private int orderId;
 	private Book bookOrdered;
 	private User user;
@@ -54,7 +53,7 @@ public class Order
 	
 	public void markCreate() {
         this.updateTime = this.createTime = new Date();
-    }
+    	}
 	
 	public Date getUpdateTime() {
 		return updateTime;
@@ -78,9 +77,9 @@ public class Order
 	
 	public boolean isDeleted() {
         return deleteTime != null;
-    }
+    	}
 	
 	public void markDelete() {
         this.deleteTime = new Date();
-    }
+    	}
 }
