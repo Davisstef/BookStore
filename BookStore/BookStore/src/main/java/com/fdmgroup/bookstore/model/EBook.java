@@ -6,7 +6,7 @@ public class EBook extends Book {
 	
 		public EBook(int itemId, double price, String title, String author, BookGenre bookGenre) {
 		super(itemId, price, title, author, bookGenre);
-	}
+		}
 
 		public double getSizeMegaBytes() {
 			return sizeMegaBytes;
