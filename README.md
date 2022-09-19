@@ -1,6 +1,6 @@
-#Bookstore
+# Bookstore
 
-###Basic Bookstore Interface Based on Java
+### Basic Bookstore Interface Based on Java
 
 This project was created in Eclipse with Maven as assigned by FDM. The naming conventions are based on the assigned wireframes for the Phase 1 assignment.
 
